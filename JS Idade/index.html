@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Qual a sua idade?</title>
+</head>
+<body>
+
+    <header>Qual é a sua idade?</header>
+
+    <section>
+        <div>
+            <p>Ano de Nascimento:
+                <input type="number" name="txtano" id="txtano" min="0">
+            </p>
+            <p>Sexo:
+                <input type="radio" name="radsex" id="masc" checked>
+                <label for="masc">Masculino</label>
+                <input type="radio" name="radsex" i="fem">
+                <label for="fem">Feminino</label>
+            </p>
+
+            <p>
+                <input type="button" value="Verificar" onclick="verificar()">
+            </p>
+        </div>
+
+        <div id="res">
+            <p>Preencha os dados acima</p>
+        </div>
+    </section>
+    
+    <footer><p>&copy; ThamyVieira</p></footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
