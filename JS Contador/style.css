@@ -1,0 +1,43 @@
+body {
+    background: linear-gradient(90deg, rgba(99, 88, 151, 0.86) 5%, rgba(114,121,245,0.6144578313253012) 30%, rgb(78, 128, 214) 100%);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin-top: 3em;
+}
+
+#titulo {
+    color: rgb(240,239,248);
+    font-size: 40px;
+    }
+
+section {
+    width: 60%;
+    margin: auto;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.315);
+}
+
+#p  {
+    color: rgba(0, 0, 0, 0.61);
+}
+
+#dados {
+    align-items: center;
+    padding: 2% 0 2% 2%;
+}
+
+#inicio, #fim, #intervalo {
+    border-radius: 5px;
+    border: solid 1px rgba(0, 0, 0, 0.301);
+}    
+
+#res{
+    color: rgba(0, 0, 0, 0.61);
+    padding-bottom: 1em;
+}
+
+footer {
+    color: rgb(240, 239, 248);
+    font-style: italic;
+}
