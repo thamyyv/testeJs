@@ -1,0 +1,40 @@
+body {
+    background: linear-gradient(90deg, rgba(99, 88, 151, 0.86) 5%, rgba(114,121,245,0.6144578313253012) 30%, rgb(78, 128, 214) 100%);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin-top: 3em;
+    color: rgb(239, 238, 243);
+}
+
+#titulo {
+    font-size: 40px;
+    }
+
+section {
+    width: 60%;
+    padding: 2em;
+    margin: auto;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.315);
+}
+
+#info  {
+    color: rgba(0, 0, 0, 0.705);
+    margin-bottom: 2em;
+}
+
+#num {
+    border-radius: 5px;
+    border: solid 1px rgba(0, 0, 0, 0.301);
+}    
+
+#res{
+    color: rgba(0, 0, 0, 0.61);
+    padding: 1.5em 0;
+}
+
+footer {
+    padding-top: 2em;
+    font-style: italic;
+}
